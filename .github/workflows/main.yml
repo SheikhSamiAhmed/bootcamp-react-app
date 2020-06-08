@@ -34,8 +34,8 @@ jobs:
     - name: creating build
       run: yarn build
       
-    - name: Inatalling surge 
-      run: npm install -g global
+    - name: Installing surge 
+      run: npm install -g surge
       
     - name: deploy on surge  
       run: surge ./build http://bootcamp2020bysami.surge.sh/ --token $ {{secrets.SURGE_TOKEN}}
