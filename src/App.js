@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
     hello all of you i am new here
-    welcom all of us from my side!
+    welcom all of us from my side!sami
   
     </div>
   );
